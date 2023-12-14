@@ -15,27 +15,17 @@ func getNumsFromRow(row []int) (zeroes, ones int) {
 
 func rotateMatrix(matrix [][]int) [][]int {
 	var result [][]int
-	//new_row, new_col := 0, 0
-	for i, row := range matrix {
-		var resRow []int
-		for j, _ := range row {
-			resRow = append(resRow, matrix[len(row)-j-1][i])
+	// cols matrix
+	rows := len(matrix[0])
+	// rows matrix
+	cols := len(matrix)
+	for r := 0; r < rows; r++ {
+		var row []int
+		for c := 0; c < cols; c++ {
+			row = append(row, matrix[cols-c-1][r])
 		}
-		result = append(result, resRow)
+		result = append(result, row)
 	}
-	//for i, row := range matrix {
-	//	new_col = i
-	//	for j, _ := range row {
-	//		new_row = j
-	//	}
-	//}
-	//for i := 0; i < new_row; i++ {
-	//	var nr []int
-	//	for j := 0; j < new_col; j++ {
-	//		nr = append(nr, matrix[j][i])
-	//	}
-	//	result = append(result, nr)
-	//}
 	return result
 }
 
@@ -55,15 +45,15 @@ func onesMinusZeros(grid [][]int) [][]int {
 }
 
 func TestOMZ() {
-	//grid := [][]int{
-	//	{1, 1, 1},
-	//	{1, 1, 1},
-	//}
+	grid := [][]int{
+		{1, 1, 1},
+		{1, 1, 1},
+	}
 	gridBigger := [][]int{
 		{0, 1, 1},
 		{1, 0, 1},
 		{0, 0, 1},
 	}
-	//fmt.Println(onesMinusZeros(grid))
+	fmt.Println(onesMinusZeros(grid))
 	fmt.Println(onesMinusZeros(gridBigger))
 }

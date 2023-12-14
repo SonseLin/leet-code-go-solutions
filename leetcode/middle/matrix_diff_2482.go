@@ -65,7 +65,5 @@ func TestOMZ() {
 		{0, 0, 1},
 	}
 	//fmt.Println(onesMinusZeros(grid))
-	fmt.Println(rotateMatrix(gridBigger))
-	fmt.Println(gridBigger)
 	fmt.Println(onesMinusZeros(gridBigger))
 }

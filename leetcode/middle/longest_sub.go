@@ -34,6 +34,7 @@ func TestLSS() {
 		"dfdv",
 	}
 	for tc := range testCases {
+		fmt.Println("Test case '", testCases[tc], "' has max non repeating substr of")
 		fmt.Println(testCases[tc].longestSubStr())
 	}
 }

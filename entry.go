@@ -1,6 +1,7 @@
 package main
 
 import (
+	leetez "GOleet/leetcode/easy"
 	leetmid "GOleet/leetcode/middle"
 	"fmt"
 )
@@ -17,6 +18,7 @@ func main() {
 		} else {
 			switch difficultType {
 			case "easy":
+				leetez.TestingModule()
 			case "middle":
 				leetmid.TestingModule()
 			case "hard":

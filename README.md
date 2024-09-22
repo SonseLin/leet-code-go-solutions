@@ -7,6 +7,6 @@ if not, you will get a message "i haven\`t done it yet"
 
 How to use it?<br>
 Just enter **go build entry.go**<br>
-then "./entry"<br>
+then **./entry**<br>
 Like at the screen below!
 ![alt text](./example.png)

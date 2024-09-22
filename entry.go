@@ -2,6 +2,7 @@ package main
 
 import (
 	leetez "GOleet/leetcode/easy"
+	leethard "GOleet/leetcode/hard"
 	leetmid "GOleet/leetcode/middle"
 	"fmt"
 )
@@ -22,6 +23,7 @@ func main() {
 			case "middle":
 				leetmid.TestingModule()
 			case "hard":
+				leethard.TestingModule()
 			default:
 				ok = false
 			}

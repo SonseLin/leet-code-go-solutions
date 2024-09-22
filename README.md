@@ -8,6 +8,8 @@ if not, you will get a message "i haven\`t done it yet"
 <h2> How to use it?</h2>
 <h3> 1) go build entry.go<br></h3>
 <h3> 2) ./entry<br></h3>
-
+<h3> 3) choose task difficult </h3>
+<h3> 4) input task number from leetcode to corresponding difficult</h3>
+<h3> 5) repeat</h3>
 Like at the screen below!
 ![alt text](./example.png)

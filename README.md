@@ -8,5 +8,6 @@ if not, you will get a message "i haven\`t done it yet"
 <h2> How to use it?</h2>
 <h3> 1) go build entry.go<br></h3>
 <h3> 2) ./entry<br></h3>
+
 Like at the screen below!
 ![alt text](./example.png)

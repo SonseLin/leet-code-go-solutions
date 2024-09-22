@@ -70,7 +70,6 @@ func TestSTPDR() {
 		output := fmt.Sprintf("Something went wrong, completed %d of %d", passed, total)
 		fmt.Println(output)
 	}
-	fmt.Println(reversed_str(case_one) + case_one)
 	fmt.Println(shortestPalindrome(case_one))
 	fmt.Println(shortestPalindrome(case_two))
 	fmt.Println(shortestPalindrome(case_three))

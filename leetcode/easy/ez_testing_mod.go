@@ -12,6 +12,8 @@ func TestingModule() {
 			switch numberOfTask {
 			case 0:
 				ok = false
+			case 14:
+				TestLCP()
 			case 867:
 				TestTP()
 			default:
